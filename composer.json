@@ -101,7 +101,7 @@
         }
     },
     "minimum-stability": "stable",
-    "homepage": "https://github.com/andrebarthelmeshellmuth/spryker-search-feedback",
+    "homepage": "https://github.com/spryker-community/search-feedback",
     "authors": [
         {
             "name": "Andre Barthelmes",
@@ -109,7 +109,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/andrebarthelmeshellmuth/spryker-search-feedback/issues",
-        "source": "https://github.com/andrebarthelmeshellmuth/spryker-search-feedback"
+        "issues": "https://github.com/spryker-community/search-feedback/issues",
+        "source": "https://github.com/spryker-community/search-feedback"
     }
 }

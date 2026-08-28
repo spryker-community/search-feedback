@@ -1,6 +1,6 @@
 # Spryker Search Feedback
 
-[![CI](https://github.com/andrebarthelmeshellmuth/spryker-search-feedback/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/andrebarthelmeshellmuth/spryker-search-feedback/actions/workflows/ci.yml)
+[![CI](https://github.com/spryker-community/search-feedback/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/spryker-community/search-feedback/actions/workflows/ci.yml)
 [![PHP](https://img.shields.io/badge/php-%E2%89%A5%208.3-777bb4)](composer.json)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%208-2a6b2a)](phpstan.neon)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -118,15 +118,15 @@ engine-version-agnostic, plus the one upgrade-time schema trap every Spryker sho
 
 ## Installation
 
-1. Not yet published on Packagist under the `spryker-community` vendor namespace. That namespace and its
-   GitHub org (`github.com/spryker-community`) are maintained by Spryker's own community program — we're
-   in contact with them about bringing this package in properly (their `dummy-module` template is the
-   onboarding path). Until that lands, install from a VCS repository instead:
+1. This package lives in Spryker's community GitHub org at
+   [`github.com/spryker-community/search-feedback`](https://github.com/spryker-community/search-feedback).
+   It is not yet published on Packagist under the `spryker-community` vendor namespace, so until that
+   lands, install from a VCS repository:
    ```json
    "repositories": [
        {
            "type": "vcs",
-           "url": "https://github.com/andrebarthelmeshellmuth/spryker-search-feedback"
+           "url": "https://github.com/spryker-community/search-feedback"
        }
    ]
    ```
