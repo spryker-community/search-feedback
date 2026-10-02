@@ -122,7 +122,7 @@ class SubmitTicketController extends AbstractController
             return $this->redirectResponseInternal(static::ROUTE_NAME_SEARCH_FALLBACK, $redirectParameters);
         }
 
-        $skuList = (array)$request->request->all(static::PARAM_SKU_LIST);
+        $skuList = $request->request->all(static::PARAM_SKU_LIST);
         $snapshotToken = (string)$request->request->get(static::PARAM_SNAPSHOT_TOKEN, '');
 
         $requestTransfer = (new SearchFeedbackTicketRequestTransfer())
