@@ -70,7 +70,7 @@ class ReplayCapableSearch implements SearchInterface
             return $this->decoratedSearch->search($searchQuery, $resultFormatters, $requestParameters);
         }
 
-        if (!$resultFormatters) {
+        if ($resultFormatters === []) {
             return $resultSet;
         }
 
