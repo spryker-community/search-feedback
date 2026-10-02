@@ -8,6 +8,12 @@ Each version below also has a [GitHub release](../../releases) with the fuller w
 
 ## [Unreleased]
 
+### Documented
+- Installation is now a plain `composer require` from Packagist (`spryker-community` namespace,
+  auto-updated); the VCS `repositories` entry is no longer needed.
+- Replaced the "not an official Spryker project" note with the community org's own wording: maintained
+  by the community, not part of the commercial Spryker product, not covered by commercial support.
+
 ## [1.5.2] - 2026-08-28
 
 ### Changed

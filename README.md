@@ -13,12 +13,9 @@ to read it, or any reply, back from the storefront. Everything past submission h
 
 *Part of the [Search Relevance](https://search-relevance.dev/) project.*
 
-> **Not an official Spryker project.** `spryker-community/*` is an independent, community-built
-> package namespace with no affiliation to, sponsorship by, or endorsement from Spryker Systems GmbH.
-> The name describes what these packages are (community contributions for Spryker Commerce OS), not who
-> maintains them. The matching Packagist namespace is held by an unrelated GitHub organization, which is
-> why installation goes through a VCS repository entry rather than a plain `composer require` — see
-> [Installation](#installation).
+> **Community extension.** Maintained by the community in Spryker's
+> [community GitHub org](https://github.com/spryker-community). It is not part of the commercial Spryker
+> product and not covered by Spryker's commercial support.
 
 ## Contents
 
@@ -118,20 +115,9 @@ engine-version-agnostic, plus the one upgrade-time schema trap every Spryker sho
 
 ## Installation
 
-1. This package lives in Spryker's community GitHub org at
-   [`github.com/spryker-community/search-feedback`](https://github.com/spryker-community/search-feedback).
-   It is not yet published on Packagist under the `spryker-community` vendor namespace, so until that
-   lands, install from a VCS repository:
-   ```json
-   "repositories": [
-       {
-           "type": "vcs",
-           "url": "https://github.com/spryker-community/search-feedback"
-       }
-   ]
-   ```
+1. Install the package:
    ```bash
-   composer require spryker-community/search-feedback:^1.4
+   composer require spryker-community/search-feedback:^1.5
    ```
 2. Register the `SprykerCommunity` core namespace: add it to `KernelConstants::CORE_NAMESPACES` in
    `config/Shared/config_default.php`. Spryker's `ClassResolver` only ever looks in the project namespace
